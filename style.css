@@ -1,0 +1,135 @@
+body {
+	margin: 0;
+}
+
+header {
+	font-family: Verdana;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	margin-bottom: 15px;
+	border-bottom: 1px solid black;
+	width: 100%;
+	height: 80px;
+	align-items: center;
+	position: fixed;
+	z-index: 1;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+.logo span {
+  color: MediumAquamarine;
+  margin-left: 12px;
+}
+header nav {
+	display: block;
+	padding-right: 40px;
+}
+header nav span {
+	display: inline-block;
+	padding: 20px 10px;
+}
+nav a {
+	text-decoration: underline;
+	color: black;
+}
+
+.column {
+  margin-right: 32px;
+}
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.content {
+	display: flex;
+	width: 1232px;
+	margin: 0 auto 78px auto;
+	padding-top: 116px;
+}
+.textstyle {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+.main.image {
+  background-image: url("resources/images/img-story-main.png");
+	text-align: left;
+	margin-top: 0;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  margin-top: 15px;
+}
+.image span {
+  display: flex;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.art1.image span {
+  text-align: left;
+	font-size: 40px;
+	margin-left: 20px;
+}
+.earth.image {
+  background-image: url("resources/images/img-story-2.png");
+}
+.camera.image {
+  background-image: url("resources/images/img-story-3.png");
+}
+.cat.image {
+  background-image: url("resources/images/img-story-1.png");
+}
+
+.stories {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 17px;
+}
+.stories .art2, .stories .art3 {
+  display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.newsbites h3 {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.newsbites .bites {
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 11px 20px;
+}
